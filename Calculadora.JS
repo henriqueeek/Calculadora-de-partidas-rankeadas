@@ -1,3 +1,5 @@
+const prompt = require("prompt-sync")();
+
 // Função para calcular o saldo de vitórias
 function calcularSaldo(vitorias, derrotas) {
     return vitorias - derrotas;
